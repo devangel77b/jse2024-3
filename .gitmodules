@@ -1,0 +1,27 @@
+[submodule "426afox-lab3.1"]
+	path = fox
+	url = git@github.com:devangel77b/426afox-lab3.1.git
+[submodule "426skedharnath-lab3.1"]
+	path = kedharnath
+	url = git@github.com:devangel77b/426skedharnath-lab3.1.git
+[submodule "yagnnyeshwaran"]
+	path = yagnyeshwaran
+	url = git@github.com:devangel77b/426syagnyeshwaran-lab3.1.git
+[submodule "cetrulo"]
+	path = cetrulo
+	url = git@github.com:devangel77b/426acetrulo-lab3.1.git
+[submodule "arenas"]
+	path = arenas
+	url = git@github.com:devangel77b/426marenas-lab3.1.git
+[submodule "barone"]
+	path = barone
+	url = git@github.com:devangel77b/425abarone-lab3.1.git
+[submodule "govardhanen"]
+	path = govardhanen
+	url = git@github.com:devangel77b/426vgovardhanen-lab3.1.git
+[submodule "avalur"]
+	path = avalur
+	url = git@github.com:devangel77b/426davalur-lab3.1.git
+[submodule "gut"]
+	path = gut
+	url = git@github.com:devangel77b/425agut-lab3.1.git
