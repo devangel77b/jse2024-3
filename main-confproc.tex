@@ -1,0 +1,82 @@
+\documentclass[letterpaper,11pt,twoside,electronic,headers=exceptpdf,papers=countpages,linkcolor=blue,urlcolor=blue]{confproc}
+
+\renewcommand{\procpdfauthor}{Dennis Evangelista, Manalapan High School}
+\renewcommand{\procpdftitle}{Journal of Science \& Engineering}
+\renewcommand{\procchead}{}
+\renewcommand{\proclhead}{}
+\renewcommand{\proccfoot}{\thepage}
+
+\author{\procpdfauthor}
+\title{\procpdftitle}
+\date{\today}
+\renewcommand{\PAPERPATH}{.}
+
+\makeindex
+
+\usepackage{pdfpages}
+\usepackage{helvet,mathptmx}
+\renewcommand{\contentsname}{{\normalfont\sffamily Journal of\medskip}\\{\normalfont\Huge Science \& Engineering}}
+\usepackage{verse}
+
+\begin{document}
+\frontmatter
+\setcounter{page}{1}
+\pdfbookmark[0]{Preamble}{preamble}
+\pdfbookmark[1]{Cover}{cover}
+%\maketitle
+\index{Thaker, Pooja}\includepdf[pages=1]{cover}
+\newpage
+\input{masthead.tex}
+\otherpagestyle
+\addtocontents{toc}{Volume 1, Number 2, December 13, 2024\bigskip\\}
+\tableofcontents
+\addtocontents{toc}{\emph{From the cover:} The electric potential, a scalar quantity, can be visualized by drawing equipotentials; isolines or level curves in which potential is a constant. The electric field, a vector field, points in a direction perpendicular to the equipotentials, down the gradient. These physics concepts might be important to consider when designing equipment that makes use of electric fields, such as in a low-cost gel electrophoresis rig. Here, researchers consider this problem. Electrophoresis is a technique where molecules can be sorted according to their charge and size. By characterizing the field and equipotentials within a prototype device, one could eventually predict the movement of various biomolecules of interest, such as fragments of DNA cut into parts at specific nucleotide sequences by restriction enzymes. \emph{Cover image: Pooja Thaker.}\bigskip\\}
+
+
+
+
+% Haiku here
+\input{insidejse.tex}
+
+
+
+\mainmatter
+\procpaper[%
+title={Computational mapping analysis of equipotential and electric field lines in gel electrophoresis rig},
+author={Saketh Ayyagari, Victoria Collemi, Krish Shah, and Kevin Tomazic},
+index={\index{Ayyagari, Saketh}\index{Collemi, Victoria}\index{Shah, Krish}\index{Tomazic, Kevin}},
+]{/ayyagari/ayyagari}
+
+\procpaper[%
+title={Demonstrating a method to create a low-cost electrophoresis rig solution},
+author={Srikar Baru, Vikram Choudhury, Pooja Thaker, Nathan Martin, and Danyal Ahmad},
+index={\index{Baru, Srikar}\index{Choudhury, Vikram}\index{Thaker, Pooja}\index{Martin, Nathan}\index{Ahmad, Danyal}},
+]{/baru/baru}
+
+\procpaper[%
+title={Visualizing electric potential: mapping equipotential lines in a conductive water tray},
+author={Ryan Cohen, Shreyas Musuku, Justin Hammer, Eshan Handique, Nirvik Patel, Dilan Gandhi, and Nathan Gershteyn},
+index={\index{Cohen, Ryan}\index{Musuku, Shreyas}\index{Hammer, Justin}\index{Handique, Eshan}\index{Patel, Nirvik}\index{Gandhi, Dilan}\index{Gershteyn, Nathan}},
+]{/cohen/cohen}
+
+\procpaper[%
+title={Electric field mapping for cost-effective gel electrophoresis applications},
+author={Ryan Edwards, Cameron Karabin, Chloe Li, Krish Patel, and Jake Schatz},
+index={\index{Edwards, Ryan}\index{Karabin, Cameron}\index{Li, Chloe}\index{Patel, Krish}\index{Schatz, Jake}},
+]{/edwards/edwards}
+
+\procpaper[%
+title={Mapping electric potential and electric field distribution in saltwater and investigating the effect of distance from source},
+author={Aadarsh Kumar, Steven Perkins, Nareshanjay Muthukumar, Henry Villase\~{n}or, and Anirudh Khanna},
+index={\index{Kumar, Aadarsh}\index{Perkins, Steven}\index{Muthukumar, Nareshanjay}\index{Villasenor, Henry}\index{Khanna, Anirudh}},
+]{/kumar/kumar}
+
+\backmatter
+%\bibliographystyle{plain}
+%\bibliography{\procbibfile}
+
+\insertindex
+
+% get on even page?!
+%\includepdf[pages=1]{main-confproc-old.pdf}
+\end{document}

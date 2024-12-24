@@ -1,0 +1,55 @@
+-
+  title: Title here
+  authors: Miguel Arenas et al
+  index:
+    - Arenas, Miguel
+    - Butash, Callie
+  pdf: arenas/arenas.pdf
+-
+  title: Title here
+  authors: Dia Avalur et al
+  index:
+    - Avalur, Dia
+  pdf: avalur/avalur.pdf
+-
+  title: Title here
+  authors: Andrew Barone et al
+  index:
+    - Barone, Andrew
+  pdf: barone/barone.pdf
+-
+  title: Title here
+  authors: Aryanna Cetrulo et al
+  index:
+    - Cetrulo, Aryanna
+  pdf: cetrulo/cetrulo.pdf
+-
+  title: Title here
+  authors: Andrew Fox et al
+  index:
+    - Fox, Andrew
+  pdf: fox/fox.pdf
+-
+  title: Title here
+  authors: Vasudevan Govardhanen et al
+  index:
+    - Govardhanen, Vasudevan
+  pdf: govardhanen/govardhanen.pdf
+-
+  title: Title here
+  authors: Alexander Gut et al
+  index:
+    - Gut, Alexander
+  pdf: gut/gut.pdf
+-
+  title: Title here
+  authors: Siddharth Kedharnath et al
+  index:
+    - Kedharnath, Siddharth
+  pdf: kedharnath/kedharnath.pdf
+-
+  title: Title here
+  authors: Sagarika Yagnyeshwaran et al
+  index:
+    - Yagnyeshwaran, Sagarika
+  pdf: yagnyeshwaran/yagnyeshwaran.pdf
