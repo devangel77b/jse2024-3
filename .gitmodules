@@ -28,3 +28,6 @@
 [submodule "hacker"]
 	path = hacker
 	url = git@github.com:devangel77b/426ahacker-lab2.1.git
+[submodule "canada"]
+	path = canada
+	url = git@github.com:devangel77b/426ccanada-lab3.1.git
