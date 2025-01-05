@@ -8,7 +8,7 @@
 
 \author{\procpdfauthor}
 \title{\procpdftitle}
-\date{\today}
+\date{January xx, 2025}
 \renewcommand{\PAPERPATH}{.}
 
 \makeindex
@@ -28,7 +28,9 @@
 \newpage
 \input{masthead.tex}
 \otherpagestyle
-\addtocontents{toc}{Volume 1, Number 3, January x, 2025\bigskip\\}
+\makeatletter
+\addtocontents{toc}{Volume 1, Number 3, \@date\bigskip\\}
+\makeatother
 \tableofcontents
 \addtocontents{toc}{\emph{From the cover:}% 
 Cover blurb text here.% 
